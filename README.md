@@ -1,2 +1,12 @@
-# interesting-go
-Interesting questions and challenges in go
+# Interesting GO
+
+Will be adding interesting go challenges and behaviors
+
+## Behaviors
+
+- closures
+- map
+- pointers
+- loop with defer
+
+## Challenges
