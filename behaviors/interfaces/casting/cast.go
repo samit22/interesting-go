@@ -23,20 +23,15 @@ func (p Person) Age() int {
 }
 
 func main() {
-
 	p := Person{
 		name: "Samit",
 		age:  20,
 	}
-
-	Hello(p)
-
+	hello(p)
 }
 
-func Hello(one IntOne) {
+func hello(one IntOne) {
 	println("got one: ", one.Name())
-
 	two := one.(IntTwo)
 	println("got two: ", two.Age())
-
 }
